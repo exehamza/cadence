@@ -1,0 +1,255 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "cells",
+                            "line": 8,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "monthLabels",
+                            "line": 9,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "palette",
+                            "line": 12,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitHeight",
+                            "line": 20,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 24,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 25,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 33,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 44,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 50,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentWidth",
+                            "line": 65,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentHeight",
+                            "line": 66,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "boundsBehavior",
+                            "line": 68,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onContentWidthChanged",
+                            "line": 70,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "preferredHeight",
+                            "line": 64,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 86,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 94,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 93,
+                            "message": "Could not find property \"verticalCenter\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 110,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 117,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 120,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "flow",
+                            "line": 129,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 134,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "opacity",
+                            "line": 141,
+                            "message": "Cannot load property isFuture from (component in /home/pc/Documents/Programming/C++/Cadence/src/qml/components/ActivityHeatmap.qml)::modelData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 142,
+                            "message": "Cannot access value for name heatmap"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 143,
+                            "message": "Cannot load property isToday from (component in /home/pc/Documents/Programming/C++/Cadence/src/qml/components/ActivityHeatmap.qml)::modelData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 144,
+                            "message": "Cannot load property isToday from (component in /home/pc/Documents/Programming/C++/Cadence/src/qml/components/ActivityHeatmap.qml)::modelData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 148,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "onEntered",
+                            "line": 150,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "onExited",
+                            "line": 159,
+                            "message": "Cannot access value for name heatmap"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 147,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/pc/Documents/Programming/C++/Cadence/src/qml/components/ActivityHeatmap.qml"
+                }
+            ],
+            "moduleId": "Cadence(CadenceApp)"
+        }
+    ]
+}

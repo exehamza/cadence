@@ -1,0 +1,367 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentHeight",
+                            "line": 13,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 11,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 18,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 1000,
+                            "functionName": "model",
+                            "line": 29,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 61,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 71,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 74,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 77,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 83,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 86,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "features",
+                            "line": 87,
+                            "message": "Could not find property \"features\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 111,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 122,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 128,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 140,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 78,
+                            "durationMicroseconds": 0,
+                            "functionName": "selected",
+                            "line": 147,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 148,
+                            "message": "Cannot retrieve a non-object type by ID: tfLbl"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 151,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 156,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 157,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 155,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 62,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 159,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 62,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 164,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 165,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 163,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "distributionModel",
+                            "line": 176,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "totalHours",
+                            "line": 177,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 192,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 202,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 206,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 218,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 222,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 226,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 227,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 228,
+                            "message": "Could not find property \"horizontalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 221,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 233,
+                            "message": "Cannot access value for name examList"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "examData",
+                            "line": 234,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitHeight",
+                            "line": 246,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 253,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 261,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "cells",
+                            "line": 266,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "monthLabels",
+                            "line": 267,
+                            "message": "Cannot access value for name AnalyticsVM"
+                        }
+                    ],
+                    "filePath": "/home/pc/Documents/Programming/C++/Cadence/src/qml/views/AnalyticsView.qml"
+                }
+            ],
+            "moduleId": "Cadence(CadenceApp)"
+        }
+    ]
+}

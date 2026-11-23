@@ -1,0 +1,89 @@
+{
+    "classes": [
+        {
+            "className": "ReminderFilterModel",
+            "lineNumber": 9,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 11,
+                    "name": "categoryFilter",
+                    "notify": "filterChanged",
+                    "override": false,
+                    "read": "categoryFilter",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCategoryFilter"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 12,
+                    "name": "showCompleted",
+                    "notify": "filterChanged",
+                    "override": false,
+                    "read": "showCompleted",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setShowCompleted"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 13,
+                    "name": "filteredCount",
+                    "notify": "filteredCountChanged",
+                    "override": false,
+                    "read": "rowCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "cadence::ReminderFilterModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "filterChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 26,
+                    "name": "filteredCountChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSortFilterProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ReminderFilterModel.hpp",
+    "outputRevision": 69
+}

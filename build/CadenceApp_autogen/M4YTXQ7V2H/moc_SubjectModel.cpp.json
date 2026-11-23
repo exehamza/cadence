@@ -1,0 +1,148 @@
+{
+    "classes": [
+        {
+            "className": "SubjectModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 17,
+                    "name": "Roles",
+                    "values": [
+                        "IdRole",
+                        "NameRole",
+                        "ColorHexRole",
+                        "TotalSecondsRole",
+                        "TotalHoursRole",
+                        "TargetWeeklyMinutesRole"
+                    ]
+                }
+            ],
+            "lineNumber": 12,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 33,
+                    "name": "reload",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "colorHex",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "targetWeeklyMinutes",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 34,
+                    "name": "addSubject",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "colorHex",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "isCloned": true,
+                    "lineNumber": 34,
+                    "name": "addSubject",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "colorHex",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "targetWeeklyMinutes",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 35,
+                    "name": "editSubject",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 36,
+                    "name": "removeSubject",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 14,
+                    "name": "count",
+                    "notify": "countChanged",
+                    "override": false,
+                    "read": "rowCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "cadence::SubjectModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 42,
+                    "name": "countChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "SubjectModel.hpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,319 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "isWindowFullscreen",
+                            "line": 19,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "toggleFullscreen",
+                            "line": 21,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "sequences",
+                            "line": 30,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 31,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "sequences",
+                            "line": 35,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 36,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 37,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 41,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 48,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 54,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 63,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 71,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 58,
+                            "durationMicroseconds": 0,
+                            "functionName": "selected",
+                            "line": 79,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 80,
+                            "message": "Cannot retrieve a non-object type by ID: navText"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 83,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 84,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 89,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 90,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 88,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 92,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 97,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 98,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 96,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 107,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 108,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 112,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 116,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 123,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 127,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 130,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 137,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 135,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 142,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 143,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "currentIndex",
+                            "line": 152,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "isFullscreen",
+                            "line": 155,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "onToggleFullscreenRequested",
+                            "line": 156,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        }
+                    ],
+                    "filePath": "/home/pc/Documents/Programming/C++/Cadence/src/qml/Main.qml"
+                }
+            ],
+            "moduleId": "Cadence(CadenceApp)"
+        }
+    ]
+}

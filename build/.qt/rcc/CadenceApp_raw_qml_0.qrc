@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cadence/">
+    <file alias="src/qml/Main.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/Main.qml</file>
+    <file alias="src/qml/views/TimerView.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/views/TimerView.qml</file>
+    <file alias="src/qml/views/PlannerView.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/views/PlannerView.qml</file>
+    <file alias="src/qml/views/CalendarView.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/views/CalendarView.qml</file>
+    <file alias="src/qml/views/AnalyticsView.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/views/AnalyticsView.qml</file>
+    <file alias="src/qml/components/CircularTimerGauge.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/components/CircularTimerGauge.qml</file>
+    <file alias="src/qml/components/SubjectPickerDialog.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/components/SubjectPickerDialog.qml</file>
+    <file alias="src/qml/components/SubjectManagerDialog.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/components/SubjectManagerDialog.qml</file>
+    <file alias="src/qml/components/AddEventDialog.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/components/AddEventDialog.qml</file>
+    <file alias="src/qml/components/SubjectDonutChart.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/components/SubjectDonutChart.qml</file>
+    <file alias="src/qml/components/ActivityHeatmap.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/components/ActivityHeatmap.qml</file>
+    <file alias="src/qml/components/ExamCountdownCard.qml">/home/pc/Documents/Programming/C++/Cadence/src/qml/components/ExamCountdownCard.qml</file>
+  </qresource>
+</RCC>
+

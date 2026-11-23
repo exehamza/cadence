@@ -1,0 +1,383 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "accent",
+                            "line": 10,
+                            "message": "Cannot load property isOverdue from ExamCountdownCard::examData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 17,
+                            "message": "Cannot load property isUrgent from ExamCountdownCard::examData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 18,
+                            "message": "Cannot load property isUrgent from ExamCountdownCard::examData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 21,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 42,
+                            "message": "Cannot retrieve a non-object type by ID: subLbl"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 45,
+                            "message": "argument 0 contains ExamCountdownCard::accent with type QColor but is expected to contain the type QString"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 50,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 51,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 49,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 53,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 59,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 63,
+                            "message": "Could not find property \"elide\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 62,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 68,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 76,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 79,
+                            "message": "argument 0 contains ExamCountdownCard::accent with type QColor but is expected to contain the type QString"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 80,
+                            "message": "argument 0 contains ExamCountdownCard::accent with type QColor but is expected to contain the type QString"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 84,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 88,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 92,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 97,
+                            "message": "Cannot load property isOverdue from ExamCountdownCard::examData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 101,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 100,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 104,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "features",
+                            "line": 105,
+                            "message": "Could not find property \"features\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 108,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 112,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 117,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 121,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 126,
+                            "message": "Cannot load property isOverdue from ExamCountdownCard::examData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 130,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 129,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 133,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "features",
+                            "line": 134,
+                            "message": "Could not find property \"features\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 137,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 141,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 146,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 150,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 155,
+                            "message": "Cannot load property isOverdue from ExamCountdownCard::examData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 159,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 158,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 162,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "features",
+                            "line": 163,
+                            "message": "Could not find property \"features\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 166,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 170,
+                            "message": "Could not find property \"weight\"."
+                        }
+                    ],
+                    "filePath": "/home/pc/Documents/Programming/C++/Cadence/src/qml/components/ExamCountdownCard.qml"
+                }
+            ],
+            "moduleId": "Cadence(CadenceApp)"
+        }
+    ]
+}

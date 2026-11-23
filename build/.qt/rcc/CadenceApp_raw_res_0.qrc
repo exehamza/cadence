@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cadence/">
+    <file alias="resources/sql/schema.sql">/home/pc/Documents/Programming/C++/Cadence/resources/sql/schema.sql</file>
+  </qresource>
+</RCC>
+

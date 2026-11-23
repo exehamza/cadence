@@ -1,0 +1,243 @@
+{
+    "classes": [
+        {
+            "className": "CalendarViewModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 24,
+                    "name": "ViewMode",
+                    "values": [
+                        "MonthView",
+                        "WeekView"
+                    ]
+                }
+            ],
+            "lineNumber": 13,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 43,
+                    "name": "refresh",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 44,
+                    "name": "nextPeriod",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 45,
+                    "name": "previousPeriod",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 46,
+                    "name": "goToToday",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "location",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "colorHex",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "dateIso",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "startTimeStr",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "endTimeStr",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "isAllDay",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "subjectId",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 48,
+                    "name": "addStandaloneEvent",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "eventId",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 56,
+                    "name": "removeStandaloneEvent",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 16,
+                    "name": "viewMode",
+                    "notify": "viewModeChanged",
+                    "override": false,
+                    "read": "viewMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ViewMode",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setViewMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 17,
+                    "name": "headerTitle",
+                    "notify": "gridChanged",
+                    "override": false,
+                    "read": "headerTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 18,
+                    "name": "selectedDateIso",
+                    "notify": "selectedDateChanged",
+                    "override": false,
+                    "read": "selectedDateIso",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSelectedDateIso"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 19,
+                    "name": "selectedDateFormatted",
+                    "notify": "selectedDateChanged",
+                    "override": false,
+                    "read": "selectedDateFormatted",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 20,
+                    "name": "dayCells",
+                    "notify": "gridChanged",
+                    "override": false,
+                    "read": "dayCells",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 21,
+                    "name": "selectedDayItems",
+                    "notify": "gridChanged",
+                    "override": false,
+                    "read": "selectedDayItems",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "cadence::CalendarViewModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 59,
+                    "name": "viewModeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 60,
+                    "name": "selectedDateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 61,
+                    "name": "gridChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "CalendarViewModel.hpp",
+    "outputRevision": 69
+}

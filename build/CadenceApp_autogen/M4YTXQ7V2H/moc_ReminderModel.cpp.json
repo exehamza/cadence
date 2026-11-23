@@ -1,0 +1,154 @@
+{
+    "classes": [
+        {
+            "className": "ReminderModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 17,
+                    "name": "Roles",
+                    "values": [
+                        "IdRole",
+                        "SubjectIdRole",
+                        "SubjectNameRole",
+                        "SubjectColorHexRole",
+                        "TitleRole",
+                        "DescriptionRole",
+                        "CategoryRole",
+                        "DueAtRole",
+                        "DueDateRole",
+                        "IsCompletedRole"
+                    ]
+                }
+            ],
+            "lineNumber": 12,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 37,
+                    "name": "reload",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "description",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "categoryStr",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "subjectId",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "dueAtEpoch",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "dueDateIso",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 38,
+                    "name": "addReminder",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 44,
+                    "name": "toggleCompleted",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 45,
+                    "name": "pushToTomorrow",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 46,
+                    "name": "removeReminder",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 14,
+                    "name": "count",
+                    "notify": "countChanged",
+                    "override": false,
+                    "read": "rowCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "cadence::ReminderModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 49,
+                    "name": "countChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 50,
+                    "name": "reminderScheduleChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ReminderModel.hpp",
+    "outputRevision": 69
+}

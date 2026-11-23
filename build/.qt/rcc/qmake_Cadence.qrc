@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cadence">
+    <file alias="qmldir">/home/pc/Documents/Programming/C++/Cadence/build/Cadence/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,215 @@
+{
+    "classes": [
+        {
+            "className": "AnalyticsViewModel",
+            "lineNumber": 13,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 47,
+                    "name": "refresh",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 17,
+                    "name": "timeframeIndex",
+                    "notify": "timeframeChanged",
+                    "override": false,
+                    "read": "timeframeIndex",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTimeframeIndex"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 20,
+                    "name": "totalHoursInRange",
+                    "notify": "analyticsChanged",
+                    "override": false,
+                    "read": "totalHoursInRange",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 21,
+                    "name": "activeDaysLastYear",
+                    "notify": "analyticsChanged",
+                    "override": false,
+                    "read": "activeDaysLastYear",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 22,
+                    "name": "currentStreakDays",
+                    "notify": "analyticsChanged",
+                    "override": false,
+                    "read": "currentStreakDays",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 23,
+                    "name": "longestStreakDays",
+                    "notify": "analyticsChanged",
+                    "override": false,
+                    "read": "longestStreakDays",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 26,
+                    "name": "subjectDistribution",
+                    "notify": "analyticsChanged",
+                    "override": false,
+                    "read": "subjectDistribution",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 27,
+                    "name": "heatmapCells",
+                    "notify": "analyticsChanged",
+                    "override": false,
+                    "read": "heatmapCells",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 28,
+                    "name": "heatmapMonthLabels",
+                    "notify": "analyticsChanged",
+                    "override": false,
+                    "read": "heatmapMonthLabels",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 29,
+                    "name": "upcomingExams",
+                    "notify": "countdownChanged",
+                    "override": false,
+                    "read": "upcomingExams",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "cadence::AnalyticsViewModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 50,
+                    "name": "timeframeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 51,
+                    "name": "analyticsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 52,
+                    "name": "countdownChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 3,
+                    "lineNumber": 55,
+                    "name": "updateExamCountdowns",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "AnalyticsViewModel.hpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cadence/">
+    <file alias="src/qml/qmldir">/home/pc/Documents/Programming/C++/Cadence/build/Cadence/src/qml/qmldir</file>
+    <file alias="src/qml/views/qmldir">/home/pc/Documents/Programming/C++/Cadence/build/Cadence/src/qml/views/qmldir</file>
+    <file alias="src/qml/components/qmldir">/home/pc/Documents/Programming/C++/Cadence/build/Cadence/src/qml/components/qmldir</file>
+  </qresource>
+</RCC>
+

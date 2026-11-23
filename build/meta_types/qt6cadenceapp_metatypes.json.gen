@@ -1,0 +1,1750 @@
+[
+    {
+        "classes": [
+            {
+                "className": "ChecklistModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 18,
+                        "name": "Roles",
+                        "values": [
+                            "IdRole",
+                            "SubjectIdRole",
+                            "TitleRole",
+                            "CompletedCountRole",
+                            "TotalCountRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 13,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 33,
+                        "name": "reload",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "subjectId",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 34,
+                        "name": "addChecklist",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "isCloned": true,
+                        "lineNumber": 34,
+                        "name": "addChecklist",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "checklistId",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 35,
+                        "name": "removeChecklist",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 15,
+                        "name": "count",
+                        "notify": "countChanged",
+                        "override": false,
+                        "read": "rowCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "cadence::ChecklistModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 38,
+                        "name": "countChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            },
+            {
+                "className": "ChecklistItemModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 51,
+                        "name": "Roles",
+                        "values": [
+                            "IdRole",
+                            "ParentItemIdRole",
+                            "TitleRole",
+                            "IsCompletedRole",
+                            "DepthRole",
+                            "HasChildrenRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 46,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 70,
+                        "name": "reload",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "parentItemId",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 71,
+                        "name": "addItem",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "isCloned": true,
+                        "lineNumber": 71,
+                        "name": "addItem",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "itemId",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 72,
+                        "name": "toggleItem",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "itemId",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 73,
+                        "name": "removeItem",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 48,
+                        "name": "activeChecklistId",
+                        "notify": "activeChecklistIdChanged",
+                        "override": false,
+                        "read": "activeChecklistId",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qint64",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setActiveChecklistId"
+                    }
+                ],
+                "qualifiedClassName": "cadence::ChecklistItemModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 76,
+                        "name": "activeChecklistIdChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ChecklistModel.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ReminderFilterModel",
+                "lineNumber": 9,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 11,
+                        "name": "categoryFilter",
+                        "notify": "filterChanged",
+                        "override": false,
+                        "read": "categoryFilter",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setCategoryFilter"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 12,
+                        "name": "showCompleted",
+                        "notify": "filterChanged",
+                        "override": false,
+                        "read": "showCompleted",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setShowCompleted"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 13,
+                        "name": "filteredCount",
+                        "notify": "filteredCountChanged",
+                        "override": false,
+                        "read": "rowCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "cadence::ReminderFilterModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 25,
+                        "name": "filterChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 26,
+                        "name": "filteredCountChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSortFilterProxyModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ReminderFilterModel.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ReminderModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 17,
+                        "name": "Roles",
+                        "values": [
+                            "IdRole",
+                            "SubjectIdRole",
+                            "SubjectNameRole",
+                            "SubjectColorHexRole",
+                            "TitleRole",
+                            "DescriptionRole",
+                            "CategoryRole",
+                            "DueAtRole",
+                            "DueDateRole",
+                            "IsCompletedRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 12,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 37,
+                        "name": "reload",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "description",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "categoryStr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "subjectId",
+                                "type": "qint64"
+                            },
+                            {
+                                "name": "dueAtEpoch",
+                                "type": "qint64"
+                            },
+                            {
+                                "name": "dueDateIso",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 38,
+                        "name": "addReminder",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 44,
+                        "name": "toggleCompleted",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 45,
+                        "name": "pushToTomorrow",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 46,
+                        "name": "removeReminder",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 14,
+                        "name": "count",
+                        "notify": "countChanged",
+                        "override": false,
+                        "read": "rowCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "cadence::ReminderModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 49,
+                        "name": "countChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 50,
+                        "name": "reminderScheduleChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ReminderModel.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SubjectModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 17,
+                        "name": "Roles",
+                        "values": [
+                            "IdRole",
+                            "NameRole",
+                            "ColorHexRole",
+                            "TotalSecondsRole",
+                            "TotalHoursRole",
+                            "TargetWeeklyMinutesRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 12,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 33,
+                        "name": "reload",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "colorHex",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "targetWeeklyMinutes",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 34,
+                        "name": "addSubject",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "colorHex",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "isCloned": true,
+                        "lineNumber": 34,
+                        "name": "addSubject",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "qint64"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "colorHex",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "targetWeeklyMinutes",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 35,
+                        "name": "editSubject",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 36,
+                        "name": "removeSubject",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 14,
+                        "name": "count",
+                        "notify": "countChanged",
+                        "override": false,
+                        "read": "rowCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "cadence::SubjectModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 42,
+                        "name": "countChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SubjectModel.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "AnalyticsViewModel",
+                "lineNumber": 13,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 47,
+                        "name": "refresh",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 17,
+                        "name": "timeframeIndex",
+                        "notify": "timeframeChanged",
+                        "override": false,
+                        "read": "timeframeIndex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setTimeframeIndex"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 20,
+                        "name": "totalHoursInRange",
+                        "notify": "analyticsChanged",
+                        "override": false,
+                        "read": "totalHoursInRange",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 21,
+                        "name": "activeDaysLastYear",
+                        "notify": "analyticsChanged",
+                        "override": false,
+                        "read": "activeDaysLastYear",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 22,
+                        "name": "currentStreakDays",
+                        "notify": "analyticsChanged",
+                        "override": false,
+                        "read": "currentStreakDays",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 23,
+                        "name": "longestStreakDays",
+                        "notify": "analyticsChanged",
+                        "override": false,
+                        "read": "longestStreakDays",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 26,
+                        "name": "subjectDistribution",
+                        "notify": "analyticsChanged",
+                        "override": false,
+                        "read": "subjectDistribution",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 27,
+                        "name": "heatmapCells",
+                        "notify": "analyticsChanged",
+                        "override": false,
+                        "read": "heatmapCells",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 28,
+                        "name": "heatmapMonthLabels",
+                        "notify": "analyticsChanged",
+                        "override": false,
+                        "read": "heatmapMonthLabels",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 29,
+                        "name": "upcomingExams",
+                        "notify": "countdownChanged",
+                        "override": false,
+                        "read": "upcomingExams",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "cadence::AnalyticsViewModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 50,
+                        "name": "timeframeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 51,
+                        "name": "analyticsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 52,
+                        "name": "countdownChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 3,
+                        "lineNumber": 55,
+                        "name": "updateExamCountdowns",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "AnalyticsViewModel.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CalendarViewModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 24,
+                        "name": "ViewMode",
+                        "values": [
+                            "MonthView",
+                            "WeekView"
+                        ]
+                    }
+                ],
+                "lineNumber": 13,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 43,
+                        "name": "refresh",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 44,
+                        "name": "nextPeriod",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 45,
+                        "name": "previousPeriod",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 46,
+                        "name": "goToToday",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "location",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "colorHex",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "dateIso",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "startTimeStr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "endTimeStr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isAllDay",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "subjectId",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 48,
+                        "name": "addStandaloneEvent",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "eventId",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 56,
+                        "name": "removeStandaloneEvent",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 16,
+                        "name": "viewMode",
+                        "notify": "viewModeChanged",
+                        "override": false,
+                        "read": "viewMode",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "ViewMode",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setViewMode"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 17,
+                        "name": "headerTitle",
+                        "notify": "gridChanged",
+                        "override": false,
+                        "read": "headerTitle",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 18,
+                        "name": "selectedDateIso",
+                        "notify": "selectedDateChanged",
+                        "override": false,
+                        "read": "selectedDateIso",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setSelectedDateIso"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 19,
+                        "name": "selectedDateFormatted",
+                        "notify": "selectedDateChanged",
+                        "override": false,
+                        "read": "selectedDateFormatted",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 20,
+                        "name": "dayCells",
+                        "notify": "gridChanged",
+                        "override": false,
+                        "read": "dayCells",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 21,
+                        "name": "selectedDayItems",
+                        "notify": "gridChanged",
+                        "override": false,
+                        "read": "selectedDayItems",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "cadence::CalendarViewModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 59,
+                        "name": "viewModeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 60,
+                        "name": "selectedDateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 61,
+                        "name": "gridChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CalendarViewModel.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "FocusTimerViewModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 56,
+                        "name": "TimerMode",
+                        "values": [
+                            "Pomodoro",
+                            "Flowtime"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 62,
+                        "name": "TimerPhase",
+                        "values": [
+                            "Focus",
+                            "Break"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 68,
+                        "name": "BackgroundType",
+                        "values": [
+                            "SolidColor",
+                            "Image",
+                            "Video"
+                        ]
+                    }
+                ],
+                "lineNumber": 16,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "lineNumber": 126,
+                        "name": "start",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 13,
+                        "lineNumber": 127,
+                        "name": "pause",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 14,
+                        "lineNumber": 128,
+                        "name": "toggleStartPause",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 15,
+                        "lineNumber": 129,
+                        "name": "reset",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 16,
+                        "lineNumber": 130,
+                        "name": "completeAndLogSession",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 17,
+                        "lineNumber": 131,
+                        "name": "acceptFlowtimeBreak",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 18,
+                        "lineNumber": 132,
+                        "name": "dismissFlowtimeBreak",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 19,
+                        "lineNumber": 133,
+                        "name": "skipBreak",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "subjectId",
+                                "type": "qint64"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "colorHex",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 20,
+                        "lineNumber": 135,
+                        "name": "selectSubject",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 21,
+                        "lineNumber": 136,
+                        "name": "clearBackgroundMedia",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 22,
+                        "lineNumber": 137,
+                        "name": "clearAudioTrack",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 20,
+                        "name": "mode",
+                        "notify": "modeChanged",
+                        "override": false,
+                        "read": "mode",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "TimerMode",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setMode"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 21,
+                        "name": "phase",
+                        "notify": "phaseChanged",
+                        "override": false,
+                        "read": "phase",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "TimerPhase",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 22,
+                        "name": "isRunning",
+                        "notify": "runningChanged",
+                        "override": false,
+                        "read": "isRunning",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 23,
+                        "name": "isPaused",
+                        "notify": "runningChanged",
+                        "override": false,
+                        "read": "isPaused",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 26,
+                        "name": "elapsedSeconds",
+                        "notify": "timeChanged",
+                        "override": false,
+                        "read": "elapsedSeconds",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 27,
+                        "name": "remainingSeconds",
+                        "notify": "timeChanged",
+                        "override": false,
+                        "read": "remainingSeconds",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 28,
+                        "name": "formattedTime",
+                        "notify": "timeChanged",
+                        "override": false,
+                        "read": "formattedTime",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 29,
+                        "name": "progress",
+                        "notify": "timeChanged",
+                        "override": false,
+                        "read": "progress",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 32,
+                        "name": "pomodoroFocusMinutes",
+                        "notify": "configChanged",
+                        "override": false,
+                        "read": "pomodoroFocusMinutes",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setPomodoroFocusMinutes"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 33,
+                        "name": "pomodoroBreakMinutes",
+                        "notify": "configChanged",
+                        "override": false,
+                        "read": "pomodoroBreakMinutes",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setPomodoroBreakMinutes"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 34,
+                        "name": "flowtimeBreakDivisor",
+                        "notify": "configChanged",
+                        "override": false,
+                        "read": "flowtimeBreakDivisor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setFlowtimeBreakDivisor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 37,
+                        "name": "hasPendingBreakOffer",
+                        "notify": "breakOfferChanged",
+                        "override": false,
+                        "read": "hasPendingBreakOffer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 38,
+                        "name": "suggestedBreakMinutes",
+                        "notify": "breakOfferChanged",
+                        "override": false,
+                        "read": "suggestedBreakMinutes",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 41,
+                        "name": "activeSubjectId",
+                        "notify": "activeSubjectChanged",
+                        "override": false,
+                        "read": "activeSubjectId",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qint64",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 42,
+                        "name": "activeSubjectName",
+                        "notify": "activeSubjectChanged",
+                        "override": false,
+                        "read": "activeSubjectName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 43,
+                        "name": "activeSubjectColor",
+                        "notify": "activeSubjectChanged",
+                        "override": false,
+                        "read": "activeSubjectColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 16,
+                        "lineNumber": 46,
+                        "name": "backgroundType",
+                        "notify": "mediaSettingsChanged",
+                        "override": false,
+                        "read": "backgroundType",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "BackgroundType",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setBackgroundType"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 17,
+                        "lineNumber": 47,
+                        "name": "backgroundColor",
+                        "notify": "mediaSettingsChanged",
+                        "override": false,
+                        "read": "backgroundColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setBackgroundColor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 18,
+                        "lineNumber": 48,
+                        "name": "backgroundMediaUrl",
+                        "notify": "mediaSettingsChanged",
+                        "override": false,
+                        "read": "backgroundMediaUrl",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QUrl",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setBackgroundMediaUrl"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 19,
+                        "lineNumber": 49,
+                        "name": "audioTrackUrl",
+                        "notify": "mediaSettingsChanged",
+                        "override": false,
+                        "read": "audioTrackUrl",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QUrl",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setAudioTrackUrl"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 20,
+                        "lineNumber": 50,
+                        "name": "audioTrackName",
+                        "notify": "mediaSettingsChanged",
+                        "override": false,
+                        "read": "audioTrackName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 21,
+                        "lineNumber": 51,
+                        "name": "audioVolume",
+                        "notify": "mediaSettingsChanged",
+                        "override": false,
+                        "read": "audioVolume",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setAudioVolume"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 22,
+                        "lineNumber": 52,
+                        "name": "audioMuted",
+                        "notify": "mediaSettingsChanged",
+                        "override": false,
+                        "read": "audioMuted",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setAudioMuted"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 23,
+                        "lineNumber": 53,
+                        "name": "shouldPlayFocusAudio",
+                        "notify": "audioPlaybackStateChanged",
+                        "override": false,
+                        "read": "shouldPlayFocusAudio",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "cadence::FocusTimerViewModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 140,
+                        "name": "modeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 141,
+                        "name": "phaseChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 142,
+                        "name": "runningChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 143,
+                        "name": "timeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 144,
+                        "name": "configChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 145,
+                        "name": "breakOfferChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 146,
+                        "name": "activeSubjectChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 147,
+                        "name": "mediaSettingsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 148,
+                        "name": "audioPlaybackStateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "subjectName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "minutesLogged",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 150,
+                        "name": "focusSessionLogged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "lineNumber": 151,
+                        "name": "breakFinished",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 11,
+                        "lineNumber": 154,
+                        "name": "onTick",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "FocusTimerViewModel.hpp",
+        "outputRevision": 69
+    }
+]

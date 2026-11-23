@@ -1,0 +1,207 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 11,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "colorSwatches",
+                            "line": 16,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 15,
+                            "durationMicroseconds": 0,
+                            "functionName": "onOpened",
+                            "line": 20,
+                            "message": "Could not find signal \"opened\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 10,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 47,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 52,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 56,
+                            "message": "Could not find property \"horizontalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 57,
+                            "message": "Could not find property \"verticalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 71,
+                            "message": "Cannot access value for name titleField"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 104,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "leftPadding",
+                            "line": 107,
+                            "message": "Could not find property \"leftPadding\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 108,
+                            "message": "Could not find property \"verticalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 115,
+                            "message": "Cannot access value for name allDayCheck"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 151,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 168,
+                            "message": "Cannot access value for name subjectCombo"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 172,
+                            "message": "Cannot access value for name eventDialog"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 178,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 179,
+                            "message": "Cannot access value for name eventDialog"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 183,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 184,
+                            "message": "Cannot access value for name eventDialog"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 182,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 195,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 199,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 200,
+                            "message": "Could not find signal \"clicked\"."
+                        }
+                    ],
+                    "filePath": "/home/pc/Documents/Programming/C++/Cadence/src/qml/components/AddEventDialog.qml"
+                }
+            ],
+            "moduleId": "Cadence(CadenceApp)"
+        }
+    ]
+}

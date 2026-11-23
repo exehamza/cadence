@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Cadence">/home/pc/Documents/Programming/C++/Cadence/build/Cadence</file>
+
+  </qresource>
+</RCC>

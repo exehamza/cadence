@@ -1,0 +1,237 @@
+{
+    "classes": [
+        {
+            "className": "ChecklistModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 18,
+                    "name": "Roles",
+                    "values": [
+                        "IdRole",
+                        "SubjectIdRole",
+                        "TitleRole",
+                        "CompletedCountRole",
+                        "TotalCountRole"
+                    ]
+                }
+            ],
+            "lineNumber": 13,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 33,
+                    "name": "reload",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "subjectId",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 34,
+                    "name": "addChecklist",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "isCloned": true,
+                    "lineNumber": 34,
+                    "name": "addChecklist",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checklistId",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 35,
+                    "name": "removeChecklist",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 15,
+                    "name": "count",
+                    "notify": "countChanged",
+                    "override": false,
+                    "read": "rowCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "cadence::ChecklistModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 38,
+                    "name": "countChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "className": "ChecklistItemModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 51,
+                    "name": "Roles",
+                    "values": [
+                        "IdRole",
+                        "ParentItemIdRole",
+                        "TitleRole",
+                        "IsCompletedRole",
+                        "DepthRole",
+                        "HasChildrenRole"
+                    ]
+                }
+            ],
+            "lineNumber": 46,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 70,
+                    "name": "reload",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "parentItemId",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 71,
+                    "name": "addItem",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "isCloned": true,
+                    "lineNumber": 71,
+                    "name": "addItem",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "itemId",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 72,
+                    "name": "toggleItem",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "itemId",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 73,
+                    "name": "removeItem",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 48,
+                    "name": "activeChecklistId",
+                    "notify": "activeChecklistIdChanged",
+                    "override": false,
+                    "read": "activeChecklistId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qint64",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setActiveChecklistId"
+                }
+            ],
+            "qualifiedClassName": "cadence::ChecklistItemModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 76,
+                    "name": "activeChecklistIdChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ChecklistModel.hpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,16 @@
+-rootPath
+/home/pc/Documents/Programming/C++/Cadence
+-cmake-output
+-output-file
+/home/pc/Documents/Programming/C++/Cadence/build/.qt/qml_imports/CadenceApp_build.cmake
+-importPath
+/home/pc/Documents/Programming/C++/Cadence/build
+-importPath
+/home/pc/Documents/Programming/C++/Cadence/build/Cadence
+-importPath
+/usr/lib64/qt6/qml
+-qrcFiles
+/home/pc/Documents/Programming/C++/Cadence/build/.qt/rcc/qmake_Cadence.qrc
+/home/pc/Documents/Programming/C++/Cadence/build/.qt/rcc/CadenceApp_raw_qml_0.qrc
+/home/pc/Documents/Programming/C++/Cadence/build/.qt/rcc/CadenceApp_raw_res_0.qrc
+/home/pc/Documents/Programming/C++/Cadence/build/.qt/rcc/CadenceApp_raw_qml_0_extra_qmldirs.qrc

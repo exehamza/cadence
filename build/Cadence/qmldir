@@ -1,0 +1,17 @@
+module Cadence
+typeinfo CadenceApp.qmltypes
+prefer :/qt/qml/Cadence/
+Main 1.0 src/qml/Main.qml
+TimerView 1.0 src/qml/views/TimerView.qml
+PlannerView 1.0 src/qml/views/PlannerView.qml
+CalendarView 1.0 src/qml/views/CalendarView.qml
+AnalyticsView 1.0 src/qml/views/AnalyticsView.qml
+CircularTimerGauge 1.0 src/qml/components/CircularTimerGauge.qml
+SubjectPickerDialog 1.0 src/qml/components/SubjectPickerDialog.qml
+SubjectManagerDialog 1.0 src/qml/components/SubjectManagerDialog.qml
+AddEventDialog 1.0 src/qml/components/AddEventDialog.qml
+SubjectDonutChart 1.0 src/qml/components/SubjectDonutChart.qml
+ActivityHeatmap 1.0 src/qml/components/ActivityHeatmap.qml
+ExamCountdownCard 1.0 src/qml/components/ExamCountdownCard.qml
+depends QtQuick
+

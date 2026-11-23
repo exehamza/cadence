@@ -1,0 +1,1263 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "effectiveAccentColor",
+                            "line": 16,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 25,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 24,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 30,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "source",
+                            "line": 32,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 33,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 29,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 45,
+                            "durationMicroseconds": 0,
+                            "functionName": "activeVideo",
+                            "line": 40,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "source",
+                            "line": 42,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "loops",
+                            "line": 43,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "videoOutput",
+                            "line": 48,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActiveVideoChanged",
+                            "line": 50,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "onSourceChanged",
+                            "line": 54,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 62,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 63,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 61,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 69,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 68,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "volume",
+                            "line": 79,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "onRunningChanged",
+                            "line": 85,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "type",
+                            "line": 84,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "source",
+                            "line": 96,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "loops",
+                            "line": 97,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "audioOutput",
+                            "line": 98,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 102,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onShouldPlayFocusAudioChanged",
+                            "line": 103,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onFocusSessionLogged",
+                            "line": 108,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 118,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 119,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 120,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 126,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 129,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 135,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 139,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 58,
+                            "durationMicroseconds": 0,
+                            "functionName": "selected",
+                            "line": 145,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 146,
+                            "message": "Cannot retrieve a non-object type by ID: modeText"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 149,
+                            "message": "Cannot access value for name timerView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 154,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 155,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 153,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 157,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 162,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 163,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 161,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 172,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 175,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 176,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 181,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 188,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 192,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 195,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 207,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 208,
+                            "message": "Cannot retrieve a non-object type by ID: subjectPicker"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 206,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 216,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 217,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 220,
+                            "message": "Cannot access value for name timerView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 226,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 230,
+                            "message": "Could not find property \"horizontalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 231,
+                            "message": "Could not find property \"verticalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 229,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 239,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 240,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 243,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 247,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 251,
+                            "message": "Could not find property \"horizontalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 252,
+                            "message": "Could not find property \"verticalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 250,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 263,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "progress",
+                            "line": 268,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "timeText",
+                            "line": 269,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "phaseLabel",
+                            "line": 270,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "modeLabel",
+                            "line": 271,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "subjectName",
+                            "line": 272,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "accentColor",
+                            "line": 273,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 267,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 278,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 285,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 289,
+                            "message": "Cannot access value for name timerView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 292,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 296,
+                            "message": "Could not find property \"horizontalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 297,
+                            "message": "Could not find property \"verticalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 295,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 303,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 307,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 311,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 316,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 320,
+                            "message": "Could not find property \"horizontalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 321,
+                            "message": "Could not find property \"verticalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 319,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 327,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 330,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 334,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 341,
+                            "message": "Could not find property \"horizontalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 342,
+                            "message": "Could not find property \"verticalAlignment\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 350,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 351,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 354,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 349,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 360,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 364,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 367,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 372,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 381,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 389,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 410,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 413,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "opacity",
+                            "line": 414,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 405,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 406,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 407,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentHeight",
+                            "line": 423,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 421,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 428,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 435,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 449,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "onValueModified",
+                            "line": 450,
+                            "message": "Could not find signal \"valueModified\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 465,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "onValueModified",
+                            "line": 466,
+                            "message": "Could not find signal \"valueModified\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 481,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "onValueModified",
+                            "line": 482,
+                            "message": "Could not find signal \"valueModified\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 492,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 499,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 505,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 506,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 513,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 514,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 512,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 530,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 535,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 540,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 543,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 552,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 556,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 559,
+                            "message": "Could not find property \"elide\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 570,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 573,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 574,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 575,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 590,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "onMoved",
+                            "line": 591,
+                            "message": "Could not find signal \"moved\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "implicitWidth",
+                            "line": 604,
+                            "message": "Cannot retrieve a non-object type by ID: toastLabel"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 610,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "show",
+                            "line": 612,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 601,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 602,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 619,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 621,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 626,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 629,
+                            "message": "Could not find property \"weight\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "nameFilters",
+                            "line": 640,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAccepted",
+                            "line": 641,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "nameFilters",
+                            "line": 650,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAccepted",
+                            "line": 651,
+                            "message": "Cannot access value for name FocusTimer"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "nameFilters",
+                            "line": 660,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAccepted",
+                            "line": 661,
+                            "message": "Cannot access value for name FocusTimer"
+                        }
+                    ],
+                    "filePath": "/home/pc/Documents/Programming/C++/Cadence/src/qml/views/TimerView.qml"
+                }
+            ],
+            "moduleId": "Cadence(CadenceApp)"
+        }
+    ]
+}
